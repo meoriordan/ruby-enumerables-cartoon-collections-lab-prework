@@ -3,7 +3,7 @@ def roll_call_dwarves(d)# code an argument here
 end
 
 def summon_captain_planet(p)# code an argument here
-  return p.collect{|n| puts "#{n.capitalize}!"}
+  return p.collect{|n|  "#{n.capitalize}!"}
 end
 
 def long_planeteer_calls(s)# code an argument here
