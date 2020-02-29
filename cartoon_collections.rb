@@ -14,7 +14,9 @@ def find_the_cheese(c)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   for cheese in cheese_types
-    return c.include?(cheese)
+  	if c.include?(cheese)
+  		puts cheese
+  		break
+  	end
   end
-  return nil
 end
