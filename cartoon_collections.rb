@@ -19,4 +19,5 @@ def find_the_cheese(c)# code an argument here
   		break
   	end
   end
+  return nil
 end
