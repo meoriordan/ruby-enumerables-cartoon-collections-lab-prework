@@ -10,8 +10,8 @@ def long_planeteer_calls(s)# code an argument here
   s.any? { |str| str.size >4 }
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(c)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  
+  c.include?
 end
