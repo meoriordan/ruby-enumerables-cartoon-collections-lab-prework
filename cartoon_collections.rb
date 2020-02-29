@@ -1,9 +1,9 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(d)# code an argument here
+  d.each_with_index {|val,index| puts "#{index+1} #{val}"}
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(p)# code an argument here
+  p.map{|n| puts "#{n.capitalize}!"}
 end
 
 def long_planeteer_calls# code an argument here
